@@ -10,10 +10,6 @@ const route = createBrowserRouter([
     path: '/',
     element: <Page />,
   },
-  {
-    path: '/app',
-    element: <App />,
-  },
 ]);
 
 

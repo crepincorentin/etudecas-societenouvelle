@@ -1,0 +1,46 @@
+.graph-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    flex-direction: column;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 3rem;
+
+    @media screen and (max-width: 768px){
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;        
+    }
+}
+
+.graph-title{
+    text-align: center;
+    font-size: 1rem;
+    color: #191558;
+    margin: 0;
+    padding: 2rem;
+}
+
+.graph-description{
+    text-align: start;
+    font-size: 0.6rem;
+    color: #191558;
+    margin-top: 0.5rem;
+
+    @media screen and (max-width: 768px){
+        font-size: 0.5rem;
+    }
+}
+
+.graph-note{
+    margin-top: 0.6rem;
+    padding: 0.8rem;
+
+    @media screen and (max-width: 768px){
+        margin-top: 0.5rem;
+        padding: 2rem;
+    }
+}
